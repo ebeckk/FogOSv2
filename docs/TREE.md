@@ -16,13 +16,13 @@ Expected Output
 Running the clear command does not produce any text output. Instead, it has a visual effect:
 
 Before clear:
-
+```
 $ ls
 . .. README.md cat clear echo forktest grep init kill ln ls mkdir rm sh stressfs usertests wc zombie 
 $ echo "Hello, World!"
 Hello, World!
 $ 
-
+```
 After clear:
 The terminal screen will be completely blank, with the cursor positioned at the very top-left, ready for a new command.
 
@@ -46,18 +46,19 @@ The core of the tree utility is a recursive function named tree, located in the 
 Expected Output
 
 If you run the tree command from the root directory of a simple file system, the output would look something like this:
-
+```
 $ tree
 .
 |-- README.md
 |-- kernel
 |   |-- console.c
 |   |-- main.c
-|   `-- vm.c
+|   |-- vm.c
 |-- user
 |   |-- cat.c
 |   |-- clear.c
 |   |-- echo.c
-|   `-- tree.c
+|   |-- tree.c
 
 2 directories, 8 files
+```
