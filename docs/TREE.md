@@ -62,3 +62,25 @@ $ tree
 
 2 directories, 8 files
 ```
+
+Testing for Tree:
+
+Run tree /tests/testtree:
+the expected output should be:
+
+```
+|-- file1.txt
+|-- file2.txt
+|-- file3.txt
+|-- testdir
+|   |-- test4.txt
+
+2 directories, 4 files
+```
+
+Run tree /tests/testtree/testdir
+```
+|-- test4.txt
+
+1 directories, 1 files
+```
