@@ -78,9 +78,3 @@ the expected output should be:
 2 directories, 4 files
 ```
 
-Run tree /tests/testtree/testdir
-```
-|-- test4.txt
-
-1 directories, 1 files
-```
